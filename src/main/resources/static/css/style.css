@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    color: #113;
+    background: url(../img/tesla.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Helvetica, Tahoma, Arial, serif;
+}
+
+.text-movies {
+    color: blue;
+    word-wrap: break-word;
+}
+
+.bi {
+    color: red;
+}
+
+.footer {
+    padding-bottom: 142px;
+}
+
+.container {
+    padding: 50px 0px;
+}
+
+.container-map {
+    max-width:100%;
+    list-style:none;
+    transition: none;
+    overflow:hidden;
+    width:1600px;
+    height:500px;
+    padding-bottom: 50px;
+}
+
+.container-props {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-text {
+    padding-left: 5px;
+}
+
+.navbar-collapse {
+    /*margin-left: 15px;*/
+}
+
+.element {
+    justify-content: space-between;
+}
+
+/*Responsive*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .btn {
+        width: auto;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* 438px - 576px */
+@media screen and (max-width: 576px) {
+
+}
+
+/* 357px - 438px */
+@media screen and (max-width: 438px) {
+
+    h1 {
+        font-size: calc(5px + 3vw); /* 5px is first minimal base size. and 3% of viewport width */
+    }
+}
+
+/* 320px - 357px */
+@media screen and (max-width: 357px) {
+
+    .btn span {
+        font-size: 0.65em;
+    }
+}
